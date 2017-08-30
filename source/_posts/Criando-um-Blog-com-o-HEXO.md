@@ -1,7 +1,11 @@
 ---
 title: Criando um Blog com o HEXO
 date: 2017-08-24 21:24:05
-tags: hexo
+categories: 
+- hexo
+tags: 
+- hexo
+author: Walter Nascimento Barroso
 ---
 
 ![logo-hexo](https://hexo.io/icon/apple-touch-icon-114x114.png "Logo Hexo")
