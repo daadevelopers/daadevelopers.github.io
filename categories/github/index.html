@@ -10,8 +10,6 @@
 
     <!--Description-->
     
-        <meta name="description" content="O hexo é um novo framework para criação de blogs estaticos, de simples manutenção e super rapido, assim como a descrição do proprio Site Oficial diz: A fast, simple &amp;amp; powerful blog framework">
-    
 
     <!--Author-->
     
@@ -20,7 +18,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Criando um Blog com o HEXO"/>
+        <meta property="og:title" content="DAADevelopers"/>
     
 
     <!--Open Graph Description-->
@@ -31,7 +29,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="article" />
+        <meta property="og:type" content="website" />
     
 
     <!--Page Cover-->
@@ -42,7 +40,7 @@
 
     <!-- Title -->
     
-    <title>Criando um Blog com o HEXO - DAADevelopers</title>
+    <title>github - DAADevelopers</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"/>
@@ -144,90 +142,51 @@
 </nav>
 
     <!-- Main Content -->
-    <!-- Page Header -->
-<!-- Set your background image for this header in your post front-matter: cover -->
+    
 
+<!-- Page Header -->
+<!-- Set your background image for this header in the theme's configuration: index_cover -->
 <header class="intro-header" style="background-image: url('http://www.codeblocq.com/assets/projects/hexo-theme-clean-blog/img/home-bg.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>Criando um Blog com o HEXO</h1>
-                    
-                    <span class="meta">
-                        <!-- Date and Author -->
-                        
-                            Posted by Walter Nascimento Barroso on
-                        
-                        
-                            2017-08-24
-                        
-                    </span>
+                <div class="site-heading">
+                    <h1>github</h1>
                 </div>
             </div>
         </div>
     </div>
 </header>
 
-<!-- Post Content -->
-<article>
-    <div class="container">
-        <div class="row">
-
-            <!-- Tags and categories -->
-           
-                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
-                    
-                        
-
-
-<a href="/tags/hexo/">#hexo</a>
-
-
-                    
-                </div>
-                <div class="col-lg-4 col-md-5 post-categories">
-                    
-                        
-
-<a href="/categories/hexo/">hexo</a>
-
-                    
-                </div>
+<!-- Main Content -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             
-
-            <!-- Gallery -->
+                <div class="post-preview">
+    <a href="/2017/08/29/Publique-no-DAADeveloper/">
+        <h1 class="post-title archive">
+            Publique no DAADeveloper
+        </h1>
+    </a>
+    <p class="post-meta archive">
+        <!-- Date and Author -->
+        
+            Posted by Walter Nascimento Barroso on
+        
+        2017-08-29
+    </p>
+</div>
             
-
-            <!-- Post Main Content -->
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <p><img src="https://hexo.io/icon/apple-touch-icon-114x114.png" alt="logo-hexo" title="Logo Hexo"><br>O hexo é um novo framework para criação de blogs estaticos, de simples manutenção e super rapido, assim como a descrição do proprio <a href="https://hexo.io/" title="Hexo: Rápido, simples e poderoso" target="_blank" rel="external">Site Oficial</a> diz: <code>A fast, simple &amp; powerful blog framework</code><br><a id="more"></a><br>Para usar é necessario ter o nodejs instalado, depois é so baixar o hexo e começar a usar<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">npm install hexo-cli -g</div><div class="line">hexo init blog</div><div class="line">cd blog</div><div class="line">npm install</div><div class="line">hexo server</div></pre></td></tr></table></figure></p>
-<p>Com isso o hexo ja irá iniciar um servidor na porta 4000 e é so acessar no navegador o link <code>http://localhost:4000/</code></p>
-<p>para criar posts, você so tem que digitar<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new &quot;Titulo do post ou o nome que quiser&quot;</div></pre></td></tr></table></figure></p>
-<p>Você vai perceber que criou um novo arquivo com o nome que você colocou dentro da pasta <code>source/_posts/</code></p>
-<p>Para gerar os arquivos estáticos, você so deve rodar o comando<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo generate</div></pre></td></tr></table></figure></p>
-<h2 id="Deploy"><a href="#Deploy" class="headerlink" title="Deploy"></a>Deploy</h2><p>Agora vem uma das partes mais legais do hexo, com ele você pode exporta diretamente para o github pages(e outros lugares também), primeiro instale a dependencia<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save</div></pre></td></tr></table></figure></p>
-<p>agora so tem que configura o arquivo <code>_config.yml</code> assim:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repository: git@github.com:daadevelopers/daadevelopers.github.io.git</div></pre></td></tr></table></figure></p>
-<p>Troque para o seu repositorio ;)</p>
-<h2 id="Dominio-Proprio"><a href="#Dominio-Proprio" class="headerlink" title="Domínio Proprio"></a>Domínio Proprio</h2><p>E para finalizar, se você ja tiver um dominio registrado ou querer usar um, basta criar um arquivo <code>CNAME</code> no diretorio <code>source</code> e dentro do arquivo coloque a url do seu dominio, exemplo:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">echo &quot;daadevelopers.com.br&quot; &gt; CNAME</div></pre></td></tr></table></figure></p>
-<p>Agora no site do registro br vc vai em editar zona e depois adicione o tipo <code>A</code> e o endereço <code>192.30.252.153</code>, depois repita o processo e adicione o endereço, <code>192.30.252.154</code> e por ultimo mode o tipo para <code>CNAME</code> e coloque a url do seu repositorio do git pages <code>daadevelopers.github.io</code>, pronto tudo em perfeito estado.</p>
-<p>Para melhores referencias acessem o <a href="https://hexo.io/" title="Hexo: Rápido, simples e poderoso" target="_blank" rel="external">site oficial do hexo</a>.</p>
-
-
-                
-            </div>
-
-            <!-- Comments -->
-            
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    
-
-
-                </div>
-            
+            <div class="archive-before-pagination"></div>
+            <ul class="pager">
+    
+    
+</ul>
         </div>
     </div>
-</article>
+</div>
+
 
     <!-- Footer -->
     <hr />
